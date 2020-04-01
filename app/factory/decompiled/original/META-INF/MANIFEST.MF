@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Created-By: Android Gradle 3.4.2
+Built-By: Generated-by-ADT
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: ZIJV8JLldsF9ghldjhRsLK4zR8E=
+
+Name: res/mipmap-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: LtY15Y9qBeBPIpJNlqom+oInZ30=
+
+Name: AndroidManifest.xml
+SHA1-Digest: y8HdR2SvB2v+s04AmEbVBMZAuP0=
+
+Name: res/mipmap-hdpi-v4/ic_launcher.png
+SHA1-Digest: zps0/yF1b8ppo2CgueOJIaU02/Y=
+
+Name: resources.arsc
+SHA1-Digest: B5rdIDMtUFOFD2ep+CFFk0+c0Oo=
+
+Name: res/mipmap-xhdpi-v4/ic_launcher.png
+SHA1-Digest: XsZBYBC1G+eCc68gsmQy+Nz4ZME=
+
+Name: classes.dex
+SHA1-Digest: 5FLwBeH1vxwIj2q+RXNTQsomQiM=
+
+Name: res/mipmap-xxxhdpi-v4/ic_launcher.png
+SHA1-Digest: 1ilY88m+jWt+EAZceDrfL+1qiXw=
+
+Name: res/layout-v17/activity_main.xml
+SHA1-Digest: mUE8iCQVgfGkCKmfJqfXP/dG53I=
+
+Name: res/mipmap-mdpi-v4/ic_launcher.png
+SHA1-Digest: TWnhrGw+P1Cz+B3ps48HGYnQB0w=
+
