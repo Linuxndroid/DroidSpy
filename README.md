@@ -54,7 +54,7 @@ A cloud based remote android managment suite, powered by NodeJS
     - Password: admin
     
 7. Set Username & Password Manually  
-    1. Stop botnet `pm2 stop index`
+    1. Stop DroidSpy `pm2 stop index`
     2. Open `maindb.json` in a text editor
     3. under `admin` 
         - set the `username` as plain text
