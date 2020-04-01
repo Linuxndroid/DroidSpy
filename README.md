@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/ExtremeHacking/infinityhacks-botnet/blob/master/assets/webpublic/logo.png" height="60"><br>
+<img src="https://github.com/Linuxndroid/DroidSpy/blob/master/assets/webpublic/logo.png" height="60"><br>
 A cloud based remote android managment suite, powered by NodeJS
 </p>
 
@@ -28,7 +28,7 @@ A cloud based remote android managment suite, powered by NodeJS
  - NodeJs 
  - A Server
 
-## Installation 
+## Installation ON VPS & PC
 1. Install JRE 8 
     - Debian, Ubuntu, Etc
         - `sudo apt-get install openjdk-8-jre`
@@ -42,14 +42,14 @@ A cloud based remote android managment suite, powered by NodeJS
 3. install PM2 
     - `npm install pm2 -g`
 
-4. Download and Extract [HERE](https://codeload.github.com/ExtremeHacking/infinityhacks-botnet/zip/master)
+4. Download and Extract [HERE](https://codeload.github.com/Linuxndroid/DroidSpy/zip/master)
 
 5. In the extracted folder, run these commands
     - `npm install` <- install dependencies
     - `pm2 start index.js` <-- start the script
     - `pm2 startup` <- to run botnet on startup
 
-6. Default Username & Password
+6. Default Username & Password check password.txt file
     - Username: admin
     - Password: admin
     
@@ -64,15 +64,18 @@ A cloud based remote android managment suite, powered by NodeJS
 
 8. in your browser navigate to `http://<SERVER IP>:22533`
     
-It's recommended to run botnet behind a reverse proxy such as [NGINX](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
+It's recommended to run DroidSpy behind a reverse proxy such as [NGINX](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
 
-
+## Happy Hacking
 ## Disclaimer
-<b>Infinityhacks Botnet Provides no warranty with this software and will not be responsible for any direct or indirect damage caused due to the usage of this tool.<br>
-Infinityhacks Botnet is built for both Educational and Internal use ONLY.</b>
+<b>Linuxndroid Provides no warranty with this software and will not be responsible for any direct or indirect damage caused due to the usage of this tool.<br>
+DroidSpy is built for both Educational and Internal use ONLY.</b>
 
 <br>
-<p align="center">Made By <a href="//infinityhacks.net">Prashant Asoliya</a></p>     
-<p align="center" style="font-size: 8px">v1.1.0</p>
+<p align="center">Made with ❤️ By <a href="https://www.youtube.com/channel/UC2O1Hfg-dDCbUcau5QWGcgg">Linuxndroid</a></p>
 
-Inspired by L3MON (https://github.com/D3VL/L3MON)
+## Credits
+
+<b> Credits to <a href="https://github.com/D3VL">D3VL</a> for the original code base this repository is based on at <a href="https://github.com/D3VL/L3MON">L3MON</a>
+
+Inspired by INFINITYHACKS (https://github.com/ExtremeHacking/infinityhacks-botnet)
