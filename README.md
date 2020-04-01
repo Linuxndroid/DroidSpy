@@ -46,8 +46,8 @@ A cloud based remote android managment suite, powered by NodeJS
 
 5. In the extracted folder, run these commands
     - `npm install` <- install dependencies
-    - `pm2 start index.js` <-- start the script
-    - `pm2 startup` <- to run botnet on startup
+    - `pm2 start index.js` <-- start the DroidSpy
+    - `pm2 startup` <- to run DroidSpy on startup
 
 6. Default Username & Password check password.txt file
     - Username: admin
