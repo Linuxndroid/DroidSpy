@@ -18,9 +18,9 @@ A cloud based remote android managment suite, powered by NodeJS
 - Live Notification Logging
 - View WiFi Networks (logs previously seen)
 - File Explorer & Downloader
-- Command Queuing
 - Built In APK Builder
 - Auto Allow Permission
+- Easy Bind Any Apk
 
 ## Prerequisites 
  - Java Runtime Environment 8
