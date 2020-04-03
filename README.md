@@ -29,6 +29,7 @@ A cloud based remote android managment suite, powered by NodeJS
  - A Server
 
 ## Installation ON VPS & PC
+   Video Tutorial For VPS And PC [Click Here](https://youtu.be/ZpAQGTdGzE8)
 1. Install JRE 8 
     - Debian, Ubuntu, Etc
         - `sudo apt-get install openjdk-8-jre`
