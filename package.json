@@ -1,9 +1,10 @@
 {
-  "name": "DROIDSPY",
+  "name": "droidspy",
   "version": "1.0.0",
   "description": "DROIDSPY- Remote Android Managment Suite",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "node index.js"
   },
   "author": "Linuxndroid",
