@@ -65,6 +65,6 @@ DroidSpy is built for both Educational and Internal use ONLY.</b>
 
 ## Credits
       
- Credit BY Xploitwizer (https://www.youtube.com/channel/UCnizLUNzV9FvcK5Spj-KISA)
+<b>Credit BY Xploitwizer</b> (https://www.youtube.com/channel/UCnizLUNzV9FvcK5Spj-KISA)
 
-Inspired by XploitSPY (https://github.com/Xploitwizer/XploitSPY)
+<b>Inspired by XploitSPY</b> (https://github.com/Xploitwizer/XploitSPY)
