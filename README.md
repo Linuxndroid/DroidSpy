@@ -25,6 +25,8 @@ A cloud based remote android managment suite, powered by NodeJS
 ## Installation on VPS & PC [Click Here](https://github.com/Linuxndroid/DroidSpy)
 
 ## Installation on Heroku Free Server
+  
+ Video Tutorial For Setup [Click Hare](https://youtu.be/oN1_BjHn97g)
 
 0. Create a Account on [Heroku](https://heroku.com)
 
