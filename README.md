@@ -11,7 +11,7 @@ A cloud based remote android managment suite, powered by NodeJS
 - View Contacts
 - SMS Logs
 - Send SMS
-- Call Logs
+- Call manoj
 - View Installed Apps
 - View Stub Permissions
 - Live Clipboard Logging
