@@ -3,6 +3,9 @@
 A cloud based remote android managment suite, powered by NodeJS
 </p>
 
+<a href="#"><img title="Made in INDIA" src="https://img.shields.io/badge/MADE%20IN%20-INDIA-orange?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+
+<a href="#"><img title="Open Source" src="https://img.shields.io/badge/Open%20-Source%20%F0%9F%98%8E-yellowgreen?style=for-the-badge"></a>
 
 
 ## Features
@@ -75,6 +78,11 @@ DroidSpy is built for both Educational and Internal use ONLY.</b>
 
 <br>
 <p align="center">Made with ❤️ By <a href="https://www.youtube.com/channel/UC2O1Hfg-dDCbUcau5QWGcgg">Linuxndroid</a></p>
+
+[![Instagram](https://img.shields.io/badge/IG-decent__deep__raadhe-yellowgreen?style=for-the-badge&logo=instagram)](https://www.instagram.com/linuxndroid)
+
+[![Youtube](https://img.shields.io/badge/IG-decent__deep__raadhe-yellowgreen?style=for-the-badge&logo=instagram)](https://www.youtube.com/channel/UC2O1Hfg-dDCbUcau5QWGcgg)
+
 
 ## Credits
 
